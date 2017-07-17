@@ -1,0 +1,17 @@
+Source: libcurl
+Section: libdevel
+Priority: extra
+Maintainer: syslog-ng developers <syslog-ng@lists.balabit.hu>
+Build-depends: pkg-config
+Standards-Version: 3.6.1
+
+Package: libcurl
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: A command line tool and library for transferring data with URL syntax,
+ supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP.
+
+Package: libcurl-dbg
+Architecture: amd64
+Depends: libcurl
+Description: Debug symbols for libcurl

@@ -1,0 +1,5 @@
+libcurl (7.54.1-1.syslogng70.0) syslogng70; urgency=medium
+
+  * import libcurl
+
+ -- gabornagy <gabor.nagy@balabit.com>  Mon, 17 Jul 2017 16:01:12 +0200
