@@ -1,3 +1,9 @@
+libcurl (7.62.1-1.syslogng70.0) syslogng70; urgency=medium
+
+  * update libcurl to 7.62
+
+ -- Laszlo Budai <laszlo.budai@balabit.com>  Thu, 08 Nov 2018 13:32:56 +0100
+
 libcurl (7.54.1-1.syslogng70.0) syslogng70; urgency=medium
 
   * import libcurl
