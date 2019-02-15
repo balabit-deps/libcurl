@@ -1,3 +1,9 @@
+libcurl (7.62.1-2.syslogng70.0) syslogng70; urgency=medium
+
+  * Using --without-ca-bundle --without-ca-path
+
+ -- Antal Nemes <antal.nemes@balabit.com>  Fri, 15 Feb 2019 08:18:40 +0100
+
 libcurl (7.62.1-1.syslogng70.0) syslogng70; urgency=medium
 
   * update libcurl to 7.62
