@@ -1,6 +1,8 @@
 name: libcurl
 builder:
   name: AutotoolsBuilder
+  configure_options: --without-ca-bundle --without-ca-path
+  make_options: -j4
 platforms:
   - linux-glibc2.11/amd64
   - ubuntu-bionic/amd64
